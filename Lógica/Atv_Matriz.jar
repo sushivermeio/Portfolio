@@ -1,0 +1,36 @@
+package matriz;
+
+public class Matriz {
+
+    public static void main(String[] args) {
+        
+        int[][] numeros = {{9,8,7}, {6,5,4},{3,1,2}};
+        String matriz = "Matriz\n";
+        for(int linha = 0; linha <3; linha++){
+            for(int coluna = 0; coluna <3; coluna++)
+            {
+                matriz += numeros[linha][coluna]+ " ";
+            }
+            matriz += "\n";
+        }
+        System.out.println(matriz);
+        
+        int diagPri = numeros[0][0]*numeros[1][1]*numeros[2][2];
+        int diagsec = numeros[0][1]*numeros[1][2]*numeros[2][0];
+        int diagter = numeros[0][2]*numeros[1][0]*numeros[2][1];
+        int sus = diagPri+diagsec+diagter;
+        
+        int diagPri2 = numeros[0][2]*numeros[1][1]*numeros[2][0];
+        int diagsec2 = numeros[0][0]*numeros[1][2]*numeros[2][1];
+        int diagter2 = numeros[0][1]*numeros[1][0]*numeros[2][2];
+        int sas = diagPri2+diagsec2+diagter2;
+        int ahi = sus-sas
+                ;
+        if(ahi<0){
+             ahi = (ahi*-1);
+        }
+        System.out.println(ahi);
+    }
+    
+}
+
