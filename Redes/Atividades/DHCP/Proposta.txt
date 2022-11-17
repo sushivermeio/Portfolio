@@ -1,0 +1,1 @@
+No Cisco Packet Tracer utilizar o DHCP para escolha dos IPs da rede.
