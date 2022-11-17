@@ -1,0 +1,15 @@
+ Até esse ponto, estudei poucos linguagens, como Java e PHP, onde aprendi funções build-in como orientação a objetos, porém
+fui introduzido ao banco de dados pelo meu pai, achava que era a mesma coisa que O.O (Orientação a Objetos) pois também podia
+adquirir informações e manipulá-las.
+
+ Mas ao me aprofundar, percebi que se tratava não só de administração de dados, mas uma linguagem focada na criação e também
+armazenamento de dados, com uma síntaxe totalmente diferente das linguagens que estava estudando, nunca imaginei que teria
+facilidade em entender a linguagem, por ser novo, mas o que aconteceu foi exatamente o oposto.
+
+ Desde o diagrama até de fato criar um banco de dados com servidor, realizei muitos estudos, entendendo e compreendendo o
+conceito e aprender a prática de ações, logo, apliquei com facilidade conteúdos como diagrama e seu funcionamento, elementos
+e suas características, chave primária e estrangeira, a ação que interliga uma tabela com outra e cardinalidade.
+
+ Após o estudo e a criação do planejamento, usando MySQL Workbench, criei usando a linha de códigos o meu primeiro banco de
+dados, que no contexto da aprendizagem, era um banco de dados voltado para administração de uma biblioteca, com registro de
+clientes, livros, editoras e autoras.
