@@ -1,0 +1,13 @@
+ Durante a criação do Totem do mundo senai, estava tendo dificuldade em relação à conectividade, pois o projeto estava pronto,
+porém não tinha como conectar outro dispositivo com o localhost, que era o meu dispositivo, logo o professor Jackson teve uma
+ideia.
+ Acompanhei ele enquanto o mesmo me explicava o que seria preciso fazer no caminho, caminhamos até o bloco 3 e entramos na sala
+316, entrando na sala, começamos a nos organizar, pegando as coisas necessárias para realizar a conexão, pois o plano era
+através de um switch e dois cabos, podíamos conectar o totem e outro dispositivo, porém como não havia nenhum cabo grande pré-
+pronto, a gente precisou criar um cabo novo, dessa forma, o jackson e eu conseguimos pegar um cabo de 2 metros, e nele realizar
+o processo de retirar a ponta dos dois lados, com os fios coloridos expostos, e organizar em uma ordem para que a conexão seja
+possível, assim ficando então branco com verde, verde, branco com laranja, azul, azul com branco, laranja, branco com marrom e
+marrom.
+ Feito tudo isso, crimpamos os dois lados do cabo e voltamos até a sala onde estava o totem, conectamos o totem com o switch da
+sala na porta 4, e conectamos outro dispositivo na porta 4, após verificar o novo IP através do ipconfig no prompt de comando,
+ao tentar acessar o totem pelo outro dispositivo na porta 8000, finalmente deu certo.
