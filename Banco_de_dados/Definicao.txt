@@ -1,0 +1,24 @@
+Introdução a banco de dados - 13/09
+
+1- Dados são fatos reais registrados, enquanto que conhecimento possui dados em um contexto e possui uma solução prática onde se baseia em determinado contexto.
+
+2- Sistema de gerenciamento de Banco de Dados são sistemas que gerenciam banco de dados e nela é dividido de duas formas: Relacional e não relacional.
+
+3- Banco de dados que modelam dados em forma de tabelas e utiliza o SQL (Structured Query Language).
+
+4- Banco de dados que usam outros modelos para inserir dados, como documentos, gráficos, colunares… e não usam SQL
+
+5- São fortemente estruturados, com facilidade de armazenamento e recuperação de dados através do SQL.
+
+6- Os dados estão sempre disponíveis, e também é possível facilmente inserir novos dados, além de ter uma base de dados orientada objetos flexíveis e lida com o problema do Big Data.
+
+7- SGBD é uma composição do SBD (Sistema de Banco de Dados) e gerencia um ou mais banco de dados, enquanto que o próprio banco de dados organiza as informações recebidas através do sistema do computador.
+
+8- Média de Gasto registrado mensalmente, saldo atual e nome da despesa
+Saldo
+Nome da despesa
+Despesa
+1600
+Avon
+600
+

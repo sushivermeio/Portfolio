@@ -1,0 +1,32 @@
+Chaves Estrangeiras - 18/10
+
+CREATE TABLE Cliente(
+  Nome VARCHAR(50) NOT null,
+  CPF VARCHAR (15) NOT null,
+  ProdutosConsumidos INT NOt null,
+  WhatsApp VARCHAR(25) NOT null,
+  PRIMARY KEY (CPF)
+  );
+CREATE TABLE Vendedor(
+  Nome VARCHAR (50) NOT null,
+  Salario INT NOT null,
+  Vendas INT not null,
+  Telefone VARCHAR (25) NOT null,
+  CPF VARCHAR (15) NOT null,
+  PRIMARY KEY (CPF)
+  );
+CREATE TABLE Produto(
+  Nome VARCHAR (50) NOT null,
+  Ingredientes VARCHAR(25) NOT null,
+  Preco VARCHAR(10) NOT null,
+  Tipo VARCHAR(50) NOT null,
+  Identificador VARCHAR(20) NOt null,
+  CPFcliente VARCHAR(15) NOT null,
+  CPFvendedor VARCHAR(15) NOT null,
+  PRIMARY KEY (Identificador),
+  FOREIGN KEY (CPFcliente)
+  REFERENCES Cliente (CPF),
+  FOREIGN KEY (CPFvendedor)
+  REFERENCES Vendedor (CPF)
+  );
+
